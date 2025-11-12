@@ -1,0 +1,113 @@
+@font-face {
+  font-family: mainc;
+  src: url(../fonts/PressStart2P-Regular.ttf);
+  font-family: main;
+  src: url(../fonts/Alegreya-Medium.ttf);
+  font-family: ital;
+  src: url(../fonts/Caveat-VariableFont_wght.ttf);
+}
+:root {
+  --mirbc: #000000;
+  --mirac: #9764fe;
+  --nikobc: #1e0e0e;
+  --nikoco: #ce6f72;
+  --nikonco: #6a393b;
+}
+body {
+  background-color: #301718;
+  color: var(--nikoco);
+  margin: 0px;
+  padding: 5px;
+  * {
+    border-radius: 2px;
+  }
+}
+.header {
+  width: 100%;
+  height: 80px;
+  background-color: var(--nikobc);
+  position: relative;
+  z-index: 121312;
+  display: flex;
+  justify-content: space-around;
+  user-select: none;
+  color: var(--nikonco);
+  h2 {
+    line-height: 100px;
+    margin: 0px 10px 0px 20px;
+    padding: 0px;
+  }
+
+  img {
+    height: 60px;
+    padding: 10px 5px 10px 10px;
+    width: auto;
+  }
+}
+
+p {
+  font-family: main;
+}
+i {
+  font-family: ital;
+  font-size: medium;
+}
+a {
+  text-decoration: none;
+  font-family: main;
+}
+.df {
+  display: flex;
+}
+.headnav {
+  gap: 40px;
+  align-items: center;
+  font-size: large;
+  a {
+    color: var(--nikobc);
+  }
+  div {
+    background-color: var(--nikonco);
+    padding: 10px;
+    border-radius: 5px;
+  }
+}
+.sec1 {
+  height: calc(100vh - 100px);
+  width: 100%;
+  align-items: center;
+  flex-direction: column;
+  h1 {
+    font-size: 350%;
+  }
+  .block {
+    width: 80%;
+    height: auto;
+
+    p {
+      font-size: 140%;
+    }
+  }
+  video {
+    width: 50%;
+    border-radius: 5px;
+  }
+}
+.sec {
+  height: 100vh;
+  width: 100%;
+  p {
+    font-size: 125%;
+  }
+}
+/**
+ *     _______ _________ _______  _______  _______ 
+ *    (  ____ )\__   __/(  ____ )(  ____ )(  ___  )
+ *    | (    )|   ) (   | (    )|| (    )|| (   ) |
+ *    | (____)|   | |   | (____)|| (____)|| (___) |
+ *    |  _____)   | |   |  _____)|  _____)|  ___  |
+ *    | (         | |   | (      | (      | (   ) |
+ *    | )      ___) (___| )      | )      | )   ( |
+ *    |/       \_______/|/       |/       |/     \|
+ *                                                 
+ */
