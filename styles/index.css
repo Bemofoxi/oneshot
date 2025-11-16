@@ -59,6 +59,17 @@ a {
 .df {
   display: flex;
 }
+.mt30 {
+  margin-top: 50px;
+}
+.cenp {
+  text-align: center;
+}
+.bor {
+  border-bottom: solid 3px var(--nikobc);
+  border-top: solid 3px var(--nikobc);
+  padding: 10px 0px 10px 0px;
+}
 .headnav {
   gap: 40px;
   align-items: center;
@@ -83,7 +94,6 @@ a {
   .block {
     width: 80%;
     height: auto;
-
     p {
       font-size: 140%;
     }
@@ -94,20 +104,39 @@ a {
   }
 }
 .sec {
-  height: 100vh;
   width: 100%;
+  margin-top: 50px;
+  flex-direction: column;
+  align-items: center;
+
   p {
     font-size: 125%;
   }
+  .block {
+    width: 80%;
+    p {
+      font-size: 140%;
+    }
+  }
+  .block2 {
+    p {
+      width: 40%;
+    }
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+}
+.imade {
+  width: 40%;
 }
 /**
- *     _______ _________ _______  _______  _______ 
- *    (  ____ )\__   __/(  ____ )(  ____ )(  ___  )
- *    | (    )|   ) (   | (    )|| (    )|| (   ) |
- *    | (____)|   | |   | (____)|| (____)|| (___) |
- *    |  _____)   | |   |  _____)|  _____)|  ___  |
- *    | (         | |   | (      | (      | (   ) |
- *    | )      ___) (___| )      | )      | )   ( |
- *    |/       \_______/|/       |/       |/     \|
- *                                                 
- */
+*     _______ _________ _______  _______  _______ 
+*    (  ____ )\__   __/(  ____ )(  ____ )(  ___  )
+*    | (    )|   ) (   | (    )|| (    )|| (   ) |
+*    | (____)|   | |   | (____)|| (____)|| (___) |
+*    |  _____)   | |   |  _____)|  _____)|  ___  |
+*    | (         | |   | (      | (      | (   ) |
+*    | )      ___) (___| )      | )      | )   ( |
+*    |/       \_______/|/       |/       |/     \|
+*                                                 
+*/

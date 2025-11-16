@@ -58,6 +58,11 @@ a {
   text-decoration: none;
   font-family: main;
 }
+.bor {
+  border-bottom: solid 2px var(--mirac);
+  border-top: solid 2px var(--mirac);
+  padding: 10px 0px 10px 0px;
+}
 .df {
   display: flex;
 }
