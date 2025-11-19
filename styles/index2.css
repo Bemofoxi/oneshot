@@ -9,14 +9,11 @@
 :root {
   --mirbc: #000000;
   --mirac: #9764fe;
-  --nikobc: #1e0e0e;
-  --nikoco: #ce6f72;
-  --nikonco: #6a393b;
 }
 body {
   background-color: var(--mirbc);
   color: var(--mirac);
-  margin: 0px;
+  margin: 15px;
   padding: 5px;
   * {
     border-radius: 2px;
@@ -58,11 +55,6 @@ a {
   text-decoration: none;
   font-family: main;
 }
-.bor {
-  border-bottom: solid 2px var(--mirac);
-  border-top: solid 2px var(--mirac);
-  padding: 10px 0px 10px 0px;
-}
 .df {
   display: flex;
 }
@@ -71,10 +63,10 @@ a {
   align-items: center;
   font-size: large;
   a {
-    color: var(--mirac);
+    color: var(--mirbc);
   }
   div {
-    background-color: var(--mirbc);
+    background-color: var(--mirac);
     padding: 10px;
     border-radius: 5px;
   }
@@ -107,6 +99,7 @@ a {
     font-size: 125%;
   }
 }
+
 /**
  *     _______ _________ _______  _______  _______ 
  *    (  ____ )\__   __/(  ____ )(  ____ )(  ___  )
