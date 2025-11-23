@@ -9,9 +9,7 @@
 :root {
   --mirbc: #000000;
   --mirac: #9764fe;
-  --nikobc: #1e0e0e;
-  --nikoco: #ce6f72;
-  --nikonco: #6a393b;
+  --mirnoac: #563d88;
 }
 body {
   background-color: var(--mirbc);
@@ -45,6 +43,18 @@ body {
     width: auto;
   }
 }
+footer {
+  height: fit-content;
+  width: 100%;
+  background: var(--mirbc);
+  color: var(--mirac);
+  font-size: 14px;
+  line-height: 1.4;
+  .footer-inner {
+    justify-content: center;
+    gap: 20px;
+  }
+}
 
 p {
   font-family: main;
@@ -73,10 +83,16 @@ li {
 .cenp {
   text-align: center;
 }
+.noac {
+  color: var(--mirnoac);
+}
 .bor {
   border-bottom: solid 2px var(--mirac);
   border-top: solid 2px var(--mirac);
   padding: 10px 0px 10px 0px;
+}
+.bora {
+  border: solid 3px var(--mirac);
 }
 .borb {
   border-bottom: solid 2px var(--mirac);
@@ -93,6 +109,12 @@ li {
   p {
     width: 100%;
   }
+}
+.cent {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
 }
 .headnav {
   gap: 40px;
@@ -156,15 +178,6 @@ li {
   display: inline-block;
 }
 
-@media (max-width: 720px) {
-  .napol {
-    flex-direction: column;
-    img {
-      width: 80%;
-      align-self: center;
-    }
-  }
-}
 .window {
   margin: 50px;
   border: var(--mirac) 4px solid;
@@ -271,6 +284,35 @@ li {
     width: 100%;
   }
 }
+.chars-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+  gap: 18px;
+  width: 100%;
+}
+.char-card {
+  background: var(--mirbc);
+  border: 1px solid var(--mirac);
+  padding: 12px;
+  border-radius: 8px;
+  text-align: left;
+}
+.char-card .imade {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 6px;
+  margin-bottom: 8px;
+}
+.char-card h3 {
+  margin: 6px 0 4px;
+}
+.char-card p {
+  margin: 0;
+  color: #d6cfff;
+  font-size: 95%;
+}
+
 audio {
   background-color: rgb(255, 255, 255);
   border: 2px solid white;
@@ -282,7 +324,7 @@ audio {
     border: 5px var(--mirac) solid;
     margin-bottom: 20px;
   }
-  p{
+  p {
     width: 100%;
   }
 }
@@ -292,10 +334,35 @@ audio {
     border: 3px var(--mirac) solid;
   }
 }
-#secrets{
-  img{
+#secrets {
+  img {
     width: 50%;
     border: 3px var(--mirac) solid;
+  }
+}
+.p100 {
+  .block2 {
+    p {
+      width: 100%;
+    }
+  }
+}
+#overview {
+  img {
+    width: 70%;
+    height: auto;
+  }
+}
+#func {
+  img {
+    width: 70%;
+    height: auto;
+  }
+}
+#Final {
+  img {
+    width: 70%;
+    height: auto;
   }
 }
 /**

@@ -1,0 +1,12 @@
+@media (max-width: 720px) {
+  .napol {
+    flex-direction: column;
+    img {
+      width: 80%;
+      align-self: center;
+    }
+  }
+  .chars-grid {
+    grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
+  }
+}
